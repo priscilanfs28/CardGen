@@ -2,28 +2,28 @@
 
 Flashcards é uma aplicação web que permite criar e salvar flashcards a partir de arquivos de texto. Ela foi desenvolvida usando Node.js, Express e EJS.
 
-Instalação
+## Instalação
 Para instalar e rodar a aplicação, siga os seguintes passos:
 
 Faça o clone do repositório para a sua máquina:
 
-git clone https://github.com/seu-usuario/flashcards.git
+    git clone https://github.com/seu-usuario/flashcards.git
 
-1. Entre na pasta do projeto:
-
+Entre na pasta do projeto:
+    
     cd flashcards
-
-2. Instale as dependências do projeto:
-
+    
+Instale as dependências do projeto:
+    
     npm install
 
-3. Inicie o servidor:
+Inicie o servidor:
 
     npm start
 
-4. Abra o seu navegador e acesse a página http://localhost:3000 para ver a aplicação.
+Abra o seu navegador e acesse a página http://localhost:3000 para ver a aplicação.
 
-Uso
+## Uso
 Para criar flashcards, basta seguir os seguintes passos:
 
 1. Clique no botão "Criar flashcards" na página principal da aplicação.
@@ -32,5 +32,5 @@ Para criar flashcards, basta seguir os seguintes passos:
 
 Os flashcards criados serão exibidos na tela. Você pode clicar no botão "Salvar" para salvar os flashcards em um arquivo 'flashcards.json' na pasta raiz do projeto.
 
-Licença
+## Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
