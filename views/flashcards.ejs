@@ -1,0 +1,9 @@
+<!-- Arquivo: views/flashcards.ejs -->
+
+<% for (const flashcard of flashcards) { %>
+    <div class="flashcard">
+      <div class="question"><%= flashcard.question %></div>
+      <div class="answer"><%= flashcard.answer %></div>
+    </div>
+  <% } %>
+  

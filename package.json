@@ -1,0 +1,16 @@
+{
+  "name": "cardgen",
+  "version": "1.0.0",
+  "description": "Uma aplicação que cria flashcards a partir de documentos upados",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "author": "Seu nome",
+  "license": "ISC"
+}

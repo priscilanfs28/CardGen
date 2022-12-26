@@ -1,0 +1,21 @@
+<!-- Arquivo: views/index.ejs -->
+
+<html>
+<head>
+  <title>CardGen</title>
+</head>
+<body>
+  <h1>Flashcards</h1>
+
+  <form action="/create-flashcards" method="post" enctype="multipart/form-data">
+    <label for="document">Selecione um documento:</label><br>
+    <input type="file" id="document" name="document" accept=".txt,.doc,.docx,.pdf"><br><br>
+    <input type="submit" value="Criar flashcards">
+  </form>
+
+  <h2>Flashcards criadas:</h2>
+  <div id="flashcards"></div>
+
+  <button id="save-button">Salvar flashcards</button>
+</body>
+</html>
